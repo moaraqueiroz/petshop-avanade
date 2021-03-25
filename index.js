@@ -40,7 +40,7 @@ servicos: ['banho', 'corta unha']
 
 const listarPets = () => {
     for (let i = 0; i < pets.length; i++){
-    console.log (pets[i].nome);
+    console.log (`${pets.name}, ${pets.idade}, ${pets.tipo}, ${pets.raca}`);
         //função
 }
     
